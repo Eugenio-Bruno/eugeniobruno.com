@@ -1,1 +1,12 @@
-theme: jekyll-theme-slate
+title: Eugenio Bruno - Programming and Reverse Engineering
+email: work@eugeniobruno.com  
+description: >-
+  Eugenio Bruno's Programming and Reverse Engineering blog.
+baseurl: ""
+url: ""
+github_username:  Eugenio-Bruno
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
