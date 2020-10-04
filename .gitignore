@@ -1,3 +1,9 @@
+_posts
 _site
-.sass-cache
-.jekyll-metadata
+assets
+_config.yml
+404.html
+about.md
+Gemfile
+Gemfile.lock
+index.md
