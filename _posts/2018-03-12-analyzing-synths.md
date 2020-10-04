@@ -56,7 +56,9 @@ A second thing to notice is that `float oy = oscillator->wavetable(int_phase);` 
 
 ### Single stepping in IDAPython to generate audio files
 
-I put the code in a github repo: [https://github.com/0xAC44/xmm_ida_trace_dsp](https://github.com/0xAC44/xmm_ida_trace_dsp)
+__**UPDATE: BAD EXPLANATION AND CODE WARNING!** I did not know what I was doing when I wrote this. This is the *worst possible way* to implement this. This should be a intel pin or dynamorio binary instrumentation tool!__
+
+I put the code in a github repo: [https://github.com/0xAC44/xmm_ida_trace_dsp](https://github.com/eugenio-bruno/xmm_ida_trace_dsp)
 
 Disclaimer: this is a proof of concept I used to start analysing this particular software. The code is not polished and you'll have to edit the files themselves every time you want to use them, in order to specify the parameters. I've just started playing with IDA and IDAPython, so I'm not sure about the best practices yet.
 
