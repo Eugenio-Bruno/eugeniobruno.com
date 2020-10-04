@@ -4,7 +4,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Eugenio Bruno - Reverse Engineering
 # possible gh problem with this?
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://eugeniobruno.com" # the base hostname & protocol for your site, e.g. http://example.com
+production-url: "https://eugeniobruno.com/blog" # the base hostname & protocol for your site, e.g. http://example.com
+
 github_username:  "Eugenio-Bruno"
 
 # Build settings
