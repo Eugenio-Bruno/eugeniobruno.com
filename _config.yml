@@ -1,12 +1,25 @@
-title: Eugenio Bruno - Programming and Reverse Engineering
-email: work@eugeniobruno.com  
-description: >-
-  Eugenio Bruno's Programming and Reverse Engineering blog.
-baseurl: ""
-url: ""
-github_username:  Eugenio-Bruno
+title: "Eugenio Bruno - Reverse Engineering"
+email: mail@eugeniobruno.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Eugenio Bruno - Reverse Engineering
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://eugeniobruno.com" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  "Eugenio-Bruno"
 
+# Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
