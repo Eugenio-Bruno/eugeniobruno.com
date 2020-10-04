@@ -1,6 +1,6 @@
 _posts
 _site
-assets
+/assets
 _config.yml
 404.html
 about.md
