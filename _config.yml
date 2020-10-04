@@ -10,7 +10,7 @@ github_username:  "Eugenio-Bruno"
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
